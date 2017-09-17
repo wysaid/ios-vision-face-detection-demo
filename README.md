@@ -1,5 +1,11 @@
 # Demo for ios11 vision.framework
 
+### Sync demo
+
+![demo](demo_sync.webp)
+
+### Async demo
+
 ![demo](demo.gif)
 
 ## Feature
