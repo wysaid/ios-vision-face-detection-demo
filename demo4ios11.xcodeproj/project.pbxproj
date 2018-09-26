@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		389CBAE188FF7EBF4BCAF9D6 /* libPods-libCGE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A56FCE06E993B60440E036 /* libPods-libCGE.a */; };
 		3DF158D41F6DAC53007623B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF158D31F6DAC53007623B4 /* AVFoundation.framework */; };
 		3DF158D61F6DAC6A007623B4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF158D51F6DAC6A007623B4 /* CoreVideo.framework */; };
 		3DF158D81F6DAC91007623B4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF158D71F6DAC91007623B4 /* CoreMedia.framework */; };
 		3DF158DA1F6DAC9A007623B4 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF158D91F6DAC9A007623B4 /* Vision.framework */; };
 		3DFA52A91F6E3ED400FFF6BA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFA52A81F6E3ED400FFF6BA /* MobileCoreServices.framework */; };
+		4382CF36BA8A94C9C896BB79 /* libPods-libCGE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D3CC2C49BCD743172F6DA5 /* libPods-libCGE.a */; };
 		D33BBD571B942EB900B1E285 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BBD561B942EB900B1E285 /* MainViewController.m */; };
 		D33BBD5D1B943AE800B1E285 /* CameraDemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D33BBD5C1B943AE800B1E285 /* CameraDemoViewController.mm */; };
 		D36839871BFDC0A20037CC4A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D36839851BFDC0A20037CC4A /* libc++.tbd */; };
-		D36839881BFDC0A20037CC4A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D36839861BFDC0A20037CC4A /* libstdc++.6.0.9.tbd */; };
 		D3FCC7B51B9C5446003B1D34 /* demoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FCC7B41B9C5446003B1D34 /* demoUtils.m */; };
 		DB4342191B4FCC8A00ED886F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4342181B4FCC8A00ED886F /* main.m */; };
 		DB43421C1B4FCC8A00ED886F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43421B1B4FCC8A00ED886F /* AppDelegate.m */; };
@@ -27,21 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07A56FCE06E993B60440E036 /* libPods-libCGE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libCGE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC2243008A5F9C24CABC15 /* Pods-libCGE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libCGE.release.xcconfig"; path = "Pods/Target Support Files/Pods-libCGE/Pods-libCGE.release.xcconfig"; sourceTree = "<group>"; };
 		3DF158D31F6DAC53007623B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3DF158D51F6DAC6A007623B4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		3DF158D71F6DAC91007623B4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3DF158D91F6DAC9A007623B4 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		3DFA52A61F6E3E7100FFF6BA /* cge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cge.framework; path = Pods/libCGE/cge.framework; sourceTree = "<group>"; };
 		3DFA52A81F6E3ED400FFF6BA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		5F8F02C57D063403D49BD9D9 /* Pods-libCGE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libCGE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libCGE/Pods-libCGE.debug.xcconfig"; sourceTree = "<group>"; };
-		D28E89649FBB1F9E8DA11D73 /* Pods-libCGE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libCGE.release.xcconfig"; path = "Pods/Target Support Files/Pods-libCGE/Pods-libCGE.release.xcconfig"; sourceTree = "<group>"; };
+		92D3CC2C49BCD743172F6DA5 /* libPods-libCGE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libCGE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F318A8D644E049CC40C76E /* Pods-libCGE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libCGE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libCGE/Pods-libCGE.debug.xcconfig"; sourceTree = "<group>"; };
 		D33BBD561B942EB900B1E285 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D33BBD581B942ED800B1E285 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D33BBD5B1B943AE800B1E285 /* CameraDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDemoViewController.h; sourceTree = "<group>"; };
 		D33BBD5C1B943AE800B1E285 /* CameraDemoViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = CameraDemoViewController.mm; sourceTree = "<group>"; };
 		D36839851BFDC0A20037CC4A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		D36839861BFDC0A20037CC4A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		D3FCC7B31B9C5446003B1D34 /* demoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoUtils.h; sourceTree = "<group>"; };
 		D3FCC7B41B9C5446003B1D34 /* demoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoUtils.m; sourceTree = "<group>"; };
 		DB4342131B4FCC8A00ED886F /* libCGE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libCGE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,8 +65,7 @@
 				3DF158D41F6DAC53007623B4 /* AVFoundation.framework in Frameworks */,
 				DB7EAD7F1C32B4D400F662FE /* ImageIO.framework in Frameworks */,
 				D36839871BFDC0A20037CC4A /* libc++.tbd in Frameworks */,
-				D36839881BFDC0A20037CC4A /* libstdc++.6.0.9.tbd in Frameworks */,
-				389CBAE188FF7EBF4BCAF9D6 /* libPods-libCGE.a in Frameworks */,
+				4382CF36BA8A94C9C896BB79 /* libPods-libCGE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +81,18 @@
 				3DF158D71F6DAC91007623B4 /* CoreMedia.framework */,
 				3DF158D51F6DAC6A007623B4 /* CoreVideo.framework */,
 				3DF158D31F6DAC53007623B4 /* AVFoundation.framework */,
-				07A56FCE06E993B60440E036 /* libPods-libCGE.a */,
+				92D3CC2C49BCD743172F6DA5 /* libPods-libCGE.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8730D2274ED155542E1F1F4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F318A8D644E049CC40C76E /* Pods-libCGE.debug.xcconfig */,
+				24DC2243008A5F9C24CABC15 /* Pods-libCGE.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DB43420A1B4FCC8900ED886F = {
@@ -94,11 +100,10 @@
 			children = (
 				DB4342151B4FCC8A00ED886F /* cgeDemo */,
 				D36839851BFDC0A20037CC4A /* libc++.tbd */,
-				D36839861BFDC0A20037CC4A /* libstdc++.6.0.9.tbd */,
 				DB7EAD7E1C32B4D400F662FE /* ImageIO.framework */,
 				DB4342141B4FCC8A00ED886F /* Products */,
 				3DF158D21F6DAC53007623B4 /* Frameworks */,
-				F769F09D0C33E53377E14546 /* Pods */,
+				8730D2274ED155542E1F1F4C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,15 +143,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F769F09D0C33E53377E14546 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5F8F02C57D063403D49BD9D9 /* Pods-libCGE.debug.xcconfig */,
-				D28E89649FBB1F9E8DA11D73 /* Pods-libCGE.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,12 +150,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4342361B4FCC8A00ED886F /* Build configuration list for PBXNativeTarget "libCGE" */;
 			buildPhases = (
-				A17467F10F3B8CDC9286E4CE /* [CP] Check Pods Manifest.lock */,
+				A15732FBD6BB5DB7249C3396 /* [CP] Check Pods Manifest.lock */,
 				DB43420F1B4FCC8A00ED886F /* Sources */,
 				DB4342101B4FCC8A00ED886F /* Frameworks */,
 				DB4342111B4FCC8A00ED886F /* Resources */,
-				7D823272C970A0F8A41FA3E6 /* [CP] Embed Pods Frameworks */,
-				2342C2F1836A541E43C2BEFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,7 +175,7 @@
 				TargetAttributes = {
 					DB4342121B4FCC8A00ED886F = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = V2DTUY5PQ8;
+						DevelopmentTeam = KHWJX47LP8;
 					};
 				};
 			};
@@ -217,49 +211,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2342C2F1836A541E43C2BEFC /* [CP] Copy Pods Resources */ = {
+		A15732FBD6BB5DB7249C3396 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libCGE/Pods-libCGE-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D823272C970A0F8A41FA3E6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libCGE/Pods-libCGE-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A17467F10F3B8CDC9286E4CE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libCGE-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -402,12 +369,12 @@
 		};
 		DB4342371B4FCC8A00ED886F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F8F02C57D063403D49BD9D9 /* Pods-libCGE.debug.xcconfig */;
+			baseConfigurationReference = 99F318A8D644E049CC40C76E /* Pods-libCGE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = V2DTUY5PQ8;
+				DEVELOPMENT_TEAM = KHWJX47LP8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/libCGE";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
@@ -427,12 +394,12 @@
 		};
 		DB4342381B4FCC8A00ED886F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D28E89649FBB1F9E8DA11D73 /* Pods-libCGE.release.xcconfig */;
+			baseConfigurationReference = 24DC2243008A5F9C24CABC15 /* Pods-libCGE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = V2DTUY5PQ8;
+				DEVELOPMENT_TEAM = KHWJX47LP8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Pods/libCGE";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
